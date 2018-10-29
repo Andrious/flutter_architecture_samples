@@ -17,7 +17,7 @@ dependencies:
     path: ../../
   todos_repository_flutter:
     path: ../todos_repository_flutter
-  mvc_pattern: '<2.0.0'
+  mvc_pattern: '^1.0.0'
 
 dev_dependencies:
   mockito: ^3.0.0
