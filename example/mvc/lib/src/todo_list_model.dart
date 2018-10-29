@@ -6,6 +6,7 @@ import 'dart:async';
 
 import 'package:flutter/widgets.dart';
 import 'package:meta/meta.dart';
+
 import 'package:todos_repository/src/todos_repository.dart';
 
 /// Remove any reference to the 'scoped model' architecture

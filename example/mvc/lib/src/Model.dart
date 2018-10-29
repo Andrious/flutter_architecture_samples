@@ -3,7 +3,6 @@
 // in the LICENSE file.
 
 import 'dart:async';
-
 import 'package:path_provider/path_provider.dart';
 
 import 'package:todos_repository_flutter/todos_repository_flutter.dart';

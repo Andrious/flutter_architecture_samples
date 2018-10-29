@@ -3,11 +3,9 @@
 // in the LICENSE file.
 
 import 'dart:async';
-
-import 'package:mvc/src/todo_list_model.dart' show VisibilityFilter;
-
 import 'package:mvc_pattern/mvc_pattern.dart';
 
+import 'package:mvc/src/todo_list_model.dart' show VisibilityFilter;
 import 'package:mvc/src/Model.dart';
 
 class Con extends ControllerMVC {
