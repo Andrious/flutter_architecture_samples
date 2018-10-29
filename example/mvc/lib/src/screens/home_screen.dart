@@ -16,8 +16,10 @@ import 'package:mvc_pattern/mvc_pattern.dart';
 import 'package:mvc/src/Controller.dart';
 import 'package:mvc/src/App.dart';
 
-class HomeScreen extends StatefulWidgetMVC {
-  HomeScreen() : super(HomeView());
+class HomeScreen extends StatefulWidget {
+  @protected
+  @override
+  createState() => HomeView();
 }
 
 class HomeView extends StateMVC {
@@ -25,6 +27,7 @@ class HomeView extends StateMVC {
 
   AppTab _activeTab = AppTab.todos;
 
+  @protected
   @override
   Widget build(BuildContext context) {
     return Scaffold(
