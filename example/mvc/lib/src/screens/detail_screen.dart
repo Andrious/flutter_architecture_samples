@@ -4,6 +4,7 @@
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+
 import 'package:flutter_architecture_samples/flutter_architecture_samples.dart';
 
 import 'package:mvc/src/models.dart';
